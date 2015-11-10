@@ -22,11 +22,7 @@ public class FastenYourSeatbelts extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
-        btn.setOnAction((ActionEvent event) -> {
-            System.out.println("Hello World!");
-        });
-        
+        btn.setText("Say 'Hello World'"); 
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         
