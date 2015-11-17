@@ -6,8 +6,11 @@
 package controllers;
 
 import java.net.URL;
-import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.event.ActionEvent;
+import java.util.ResourceBundle;
+import javafx.scene.layout.AnchorPane;
 
 /**
  * FXML Controller class
@@ -16,12 +19,13 @@ import javafx.fxml.Initializable;
  */
 public class DashboardController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+    public void initialize(URL url, ResourceBundle resourceBundle)
+    {
+    }
+    @FXML
+    private void AddNewCustomer(ActionEvent event)
+    {
+        System.out.println("lollolol");
     }    
-    
 }
