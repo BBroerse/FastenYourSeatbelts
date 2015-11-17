@@ -24,8 +24,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         BorderPane root = FXMLLoader.load(getClass().getResource("/views/main.fxml"));
-        primaryStage.setScene(new Scene(root, 800, 600));
-        root.getStylesheets().add("/application.css");
+        primaryStage.setScene(new Scene(root, 900, 800));
+        root.getStylesheets().add("/default.css");
         primaryStage.show();
     }
     
