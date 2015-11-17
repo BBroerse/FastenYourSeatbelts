@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="dashboard" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
   <children>
       <Label fx:id="lblCustomer" layoutX="14.0" layoutY="14.0" text="Customer:" />
       <TextField fx:id="txtSearchCustomer" layoutX="80.0" layoutY="10.0" />
@@ -16,7 +16,7 @@
           <TableColumn prefWidth="75.0" text="C2" />
         </columns>
       </TableView>
-      <Button layoutX="14.0" layoutY="255.0" mnemonicParsing="false" onAction="#AddNewCustomer" text="Add new customer" />
+      <Button layoutX="14.0" layoutY="255.0" mnemonicParsing="false" text="Add new customer" />
       <TextField fx:id="txtSearchLostLuggage" layoutX="99.0" layoutY="333.0" text="Search" />
       <Label fx:id="lblCustomer1" layoutX="18.0" layoutY="337.0" text="Lost luggage:" />
       <Label fx:id="lblCustomer11" layoutX="297.0" layoutY="337.0" text="Found luggage" />
