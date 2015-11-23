@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author jandorresteijn
  */
-public class LostController implements Initializable {
+public class LostLuggage implements Initializable {
 
     /**
      * Initializes the controller class.

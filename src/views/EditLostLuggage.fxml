@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane id="AnchorPane" prefHeight="586.0" prefWidth="790.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controllers.EditLostLuggageController">
+<AnchorPane id="AnchorPane" prefHeight="586.0" prefWidth="790.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controllers.lostLuggage">
    <children>
       <Label layoutX="37.0" layoutY="37.0" text="Lost Luggage">
          <font>
