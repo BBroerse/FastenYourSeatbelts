@@ -6,19 +6,22 @@
 package controllers;
 
 import java.net.URL;
-import javafx.fxml.Initializable;
 import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
 
 /**
  * FXML Controller class
  *
- * @author jandorresteijn
+ * @author Jeroen
  */
-public class DashboardController implements Initializable {
+public class EditLostLuggageController implements Initializable {
 
+    /**
+     * Initializes the controller class.
+     */
     @Override
-    public void initialize(URL url, ResourceBundle resourceBundle)
-    {
-        //code
-    }
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+    
 }
