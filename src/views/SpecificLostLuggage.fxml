@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="14.0" layoutY="14.0">
+         <children>
+            <Label text="Customer first name" />
+            <TextField fx:id="txtCustomerFirstname" GridPane.rowIndex="1" />
+            <Label text="Customer last name" GridPane.rowIndex="3" />
+            <TextField fx:id="txtCustomerLastname" GridPane.rowIndex="4" />
+            <Label text="Vacation destination" GridPane.rowIndex="6" />
+            <TextField fx:id="txtVacationDestination" GridPane.rowIndex="7" />
+            <Label text="Vacation period:" GridPane.rowIndex="9" />
+            <Label text="From:" GridPane.rowIndex="10" />
+            <Label text="To:" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <DatePicker fx:id="txtVacationFrom" GridPane.rowIndex="11" />
+            <DatePicker fx:id="txtVacationTo" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Label text="Vacation address" GridPane.rowIndex="13" />
+            <TextField fx:id="txtVacationAddressStreet" GridPane.rowIndex="14" />
+            <TextField fx:id="ttxtVacationAddressNumber" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <Label text="Vacation zipcode" GridPane.rowIndex="16" />
+            <TextField fx:id="txtVacationZipcode" GridPane.rowIndex="17" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="125.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="75.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane layoutX="300.0" layoutY="14.0" prefHeight="540.0" prefWidth="200.0">
+         <children>
+            <Label text="Color" />
+            <Label text="Type of luggage" GridPane.rowIndex="3" />
+            <Label text="Brands" GridPane.rowIndex="6" />
+            <Label text="Weight" GridPane.rowIndex="9" />
+            <Label text="Size" GridPane.rowIndex="12" />
+            <Label text="Barcode" GridPane.rowIndex="15" />
+            <ComboBox fx:id="ddColor" prefWidth="150.0" GridPane.rowIndex="1" />
+            <ComboBox fx:id="ddLuggageType" prefWidth="150.0" GridPane.rowIndex="4" />
+            <ComboBox fx:id="ddBrand" prefWidth="150.0" GridPane.rowIndex="7" />
+            <ComboBox fx:id="ddWeight" prefWidth="150.0" GridPane.rowIndex="10" />
+            <ComboBox fx:id="ddSize" prefWidth="150.0" GridPane.rowIndex="13" />
+            <TextField fx:id="txtBarcode1" GridPane.rowIndex="16" />
+            <Label text="Lost at airport" GridPane.rowIndex="18" />
+            <TextField fx:id="txtLostAtAirport" GridPane.rowIndex="19" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="125.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="75.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+         </rowConstraints>
+      </GridPane>
+      <TextArea fx:id="txtExtra1" layoutX="500.0" layoutY="39.0" prefHeight="200.0" prefWidth="280.0" />
+      <Label layoutX="500.0" layoutY="22.0" text="Extra" />
+   </children>
+</AnchorPane>
