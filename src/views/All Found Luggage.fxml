@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="68.0" layoutY="443.0" mnemonicParsing="false" text="Add Found Luggage" />
+      <ScrollBar layoutX="182.0" layoutY="74.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="14.0" />
+      <ScrollBar layoutX="408.0" layoutY="74.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="14.0" />
+      <Label layoutX="74.0" layoutY="55.0" text="Column 1" />
+      <Label layoutX="482.0" layoutY="58.0" text="Column 3" />
+      <Label layoutX="285.0" layoutY="55.0" text="Column 2" />
+      <Separator prefWidth="200.0" />
+      <Separator layoutY="66.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutX="14.0" layoutY="174.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutY="191.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutX="5.0" layoutY="38.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutX="14.0" layoutY="244.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutX="5.0" layoutY="407.0" prefHeight="17.0" prefWidth="723.0" />
+      <TextArea layoutX="5.0" layoutY="14.0" prefHeight="25.0" prefWidth="200.0" text="Search Found Luggage" />
+   </children>
+</AnchorPane>
