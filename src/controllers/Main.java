@@ -10,8 +10,6 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Tab;
-import javafx.scene.control.TabPane;
 
 /**
  * FXML Controller class
@@ -27,7 +25,7 @@ public class Main implements Initializable {
     @FXML private Customer customerpage;
     
     @FXML
-    private Button myButton; // value will be injected by the FXMLLoader
+    //private Button myButton; // value will be injected by the FXMLLoader
     
    
      @Override
