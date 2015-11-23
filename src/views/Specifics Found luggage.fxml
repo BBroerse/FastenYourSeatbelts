@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="822.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="51.0" layoutY="42.0" text="Specific Luggage">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="91.0" layoutY="88.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Dashboard" />
+      <Button layoutX="209.0" layoutY="88.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Luggage" />
+      <Button layoutX="327.0" layoutY="88.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Costumer" />
+      <Button layoutX="445.0" layoutY="88.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Admin" />
+      <ChoiceBox layoutX="177.0" layoutY="166.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="177.0" layoutY="237.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="177.0" layoutY="310.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="177.0" layoutY="377.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="177.0" layoutY="449.0" prefWidth="150.0" />
+      <TextField layoutX="175.0" layoutY="522.0" />
+      <Label layoutX="83.0" layoutY="171.0" text="Color" />
+      <Label layoutX="83.0" layoutY="242.0" text="Weight" />
+      <Label layoutX="83.0" layoutY="315.0" text="Material" />
+      <Label layoutX="83.0" layoutY="382.0" text="Brand" />
+      <Label layoutX="42.0" layoutY="454.0" text="Suitcase,Handbag" />
+      <Label layoutX="83.0" layoutY="527.0" text="Specialties" />
+   </children>
+</AnchorPane>

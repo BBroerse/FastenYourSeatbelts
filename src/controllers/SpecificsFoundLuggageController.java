@@ -12,9 +12,9 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author Mark
+ * @author Jeroen
  */
-public class AdduserController implements Initializable {
+public class SpecificsFoundLuggageController implements Initializable {
 
     /**
      * Initializes the controller class.
