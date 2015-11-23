@@ -25,7 +25,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            BorderPane root = FXMLLoader.load(getClass().getResource("/views/main.fxml"));
+            BorderPane root = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
             primaryStage.setScene(new Scene(root, 900, 800));
             root.getStylesheets().add("/default.css");
             primaryStage.show();
