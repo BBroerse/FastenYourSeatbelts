@@ -1,4 +1,28 @@
+
 /FastenYourSeatbelts/nbproject/private/
 /dist/
 /nbproject/
 /build/
+# NetBeans specific #
+nbproject/private/
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/FastenYourSeatbelts/nbproject/private/
