@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="23.0" layoutY="472.0" mnemonicParsing="false" text="Add new customer" />
+      <ScrollBar layoutX="182.0" layoutY="93.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="14.0" />
+      <ScrollBar layoutX="408.0" layoutY="93.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="14.0" />
+      <Label layoutX="74.0" layoutY="74.0" text="Column 1" />
+      <Label layoutX="482.0" layoutY="77.0" text="Column 3" />
+      <Label layoutX="285.0" layoutY="74.0" text="Column 2" />
+      <Separator prefWidth="200.0" />
+      <Separator layoutY="85.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutY="154.0" prefHeight="17.0" prefWidth="184.0" />
+      <Separator layoutY="274.0" prefHeight="17.0" prefWidth="184.0" />
+      <Separator layoutX="2.0" layoutY="66.0" prefHeight="17.0" prefWidth="723.0" />
+      <Separator layoutX="6.0" layoutY="352.0" prefHeight="17.0" prefWidth="178.0" />
+      <Separator layoutX="5.0" layoutY="426.0" prefHeight="17.0" prefWidth="717.0" />
+      <TextArea layoutX="5.0" layoutY="33.0" prefHeight="25.0" prefWidth="200.0" text="Search all customers" />
+      <Separator layoutX="193.0" layoutY="274.0" prefHeight="17.0" prefWidth="217.0" />
+      <Separator layoutX="196.0" layoutY="352.0" prefHeight="17.0" prefWidth="211.0" />
+      <Separator layoutX="193.0" layoutY="154.0" prefHeight="17.0" prefWidth="217.0" />
+      <Separator layoutX="422.0" layoutY="154.0" prefHeight="17.0" prefWidth="301.0" />
+      <Separator layoutX="422.0" layoutY="274.0" prefHeight="17.0" prefWidth="301.0" />
+      <Separator layoutX="422.0" layoutY="352.0" prefHeight="17.0" prefWidth="301.0" />
+      <Text layoutX="6.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All customers" />
+   </children>
+</AnchorPane>

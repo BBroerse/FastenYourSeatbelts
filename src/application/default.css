@@ -1,3 +1,5 @@
+
+/*default button styling*/
 Button {
     -fx-background-color: #26a514;
     -fx-text-fill: white;
@@ -9,4 +11,22 @@ Button {
 }
 Button:hover{
     -fx-background-color: #1e8410;
+}
+
+/*default textfiel styling*/
+TextField {
+    -fx-background-color: #f0f0f0;
+    -fx-border-radius: 6px;
+    -fx-color: #666;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-font-style: italic;
+    -fx-height: 33px;
+    -fx-width: 315px;
+    -fx-padding: 5px 10px 5px 10px;
+}
+
+/*default text styling*/ 
+Label {
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-text-fill: #d81e05;
 }
