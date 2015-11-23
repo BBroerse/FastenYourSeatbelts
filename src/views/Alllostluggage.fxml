@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="555.0" layoutY="640.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Decline" />
+      <Button layoutX="459.0" layoutY="640.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Save" />
+      <TextArea layoutX="437.0" layoutY="163.0" prefHeight="200.0" prefWidth="200.0" text="For extra information" />
+      <Label layoutX="437.0" layoutY="94.0" text="Extra">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="250.0" layoutY="597.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="251.0" layoutY="564.0" text="Found at airport" />
+      <TextField layoutX="249.0" layoutY="515.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="251.0" layoutY="484.0" text="Barcode" />
+      <ChoiceBox layoutX="253.0" layoutY="436.0" prefWidth="150.0" />
+      <Label layoutX="255.0" layoutY="409.0" text="Size" />
+      <ChoiceBox layoutX="253.0" layoutY="367.0" prefWidth="150.0" />
+      <Label layoutX="253.0" layoutY="340.0" text="Weight" />
+      <ChoiceBox layoutX="253.0" layoutY="294.0" prefWidth="150.0" />
+      <Label layoutX="254.0" layoutY="270.0" text="Brands" />
+      <ChoiceBox layoutX="253.0" layoutY="233.0" prefWidth="150.0" />
+      <Label layoutX="254.0" layoutY="203.0" text="Type of luggage" />
+      <ChoiceBox layoutX="253.0" layoutY="164.0" prefWidth="150.0" />
+      <Label layoutX="258.0" layoutY="137.0" text="Color" />
+      <Label layoutX="224.0" layoutY="97.0" text="Specification">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="24.0" text="All lost luggage">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="138.0" text="Customer first name" />
+      <TextField layoutX="33.0" layoutY="165.0" prefHeight="25.0" prefWidth="180.0" />
+      <TextField layoutX="33.0" layoutY="234.0" prefHeight="25.0" prefWidth="180.0" />
+      <Label layoutX="33.0" layoutY="204.0" text="Customer last name" />
+      <Label layoutX="34.0" layoutY="271.0" text="Vacation destination" />
+      <TextField layoutX="33.0" layoutY="295.0" prefHeight="25.0" prefWidth="180.0" />
+      <Label layoutX="34.0" layoutY="342.0" text="Vacation period:" />
+      <Label layoutX="32.0" layoutY="372.0" text="From" />
+      <Label layoutX="116.0" layoutY="372.0" text="To" />
+      <Label layoutX="32.0" layoutY="441.0" text="Vacation address" />
+      <TextField layoutX="28.0" layoutY="398.0" prefHeight="25.0" prefWidth="86.0" />
+      <TextField layoutX="121.0" layoutY="398.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField layoutX="29.0" layoutY="473.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField layoutX="130.0" layoutY="473.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label layoutX="25.0" layoutY="520.0" text="Vacation Zipcode" />
+      <TextField layoutX="24.0" layoutY="553.0" prefHeight="25.0" prefWidth="180.0" />
+   </children>
+</AnchorPane>
