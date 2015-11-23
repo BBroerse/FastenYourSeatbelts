@@ -6,28 +6,31 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.MainController">
+<BorderPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.Main">
   <center>
     <TabPane tabClosingPolicy="UNAVAILABLE">
       <tabs>
         <Tab text="dasboard">
           <content>
-            <fx:include fx:id="dashboardTab" source="dashboard.fxml" />
+            <fx:include fx:id="dashboardTab" source="Dashboard.fxml" />
           </content>
         </Tab>
         <Tab text="found">
           <content>
-            <fx:include fx:id="lostTab" source="lost.fxml" />
+            <fx:include fx:id="LostLuggageTab" source="AllLostLuggage.fxml" />
+          </content>
+          <content>
+            <fx:include fx:id="AddLostLuggageTab" source="AddLostLuggage.fxml" />
           </content>
         </Tab>
         <Tab text="user">
           <content>
-            <fx:include fx:id="usertab" source="user.fxml" />
+            <fx:include fx:id="FoundLuggageTab" source="AllFoundLuggage.fxml" />
           </content>
         </Tab>
         <Tab text="lost">
           <content>
-            <fx:include fx:id="foundTab" source="found.fxml" />
+<!--            <fx:include fx:id="AllCustomerTab" />-->
           </content>
         </Tab>
       </tabs>
