@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package application;
+package controllers;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -20,14 +20,15 @@ import javafx.stage.Stage;
  */
 public class Main extends Application {
     
-    
-    
     @Override
     public void start(Stage primaryStage) {
-        try {
-            BorderPane root = FXMLLoader.load(getClass().getResource("/views/main.fxml"));
-            primaryStage.setScene(new Scene(root, 800, 600));
-            root.getStylesheets().add("/default.css");
+        try {            
+            BorderPane root = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));
+            //BorderPane root = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));
+            //root.getStylesheets().add("/default.css");
+            
+            primaryStage.setScene(new Scene(root, 320, 400));
+            primaryStage.setResizable(false);            
             primaryStage.show();
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
@@ -36,6 +37,5 @@ public class Main extends Application {
     
     public static void main(String[] args) {
         launch(args);
-    }
-    
+    } 
 }
