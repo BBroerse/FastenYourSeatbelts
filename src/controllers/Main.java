@@ -23,10 +23,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {            
-            BorderPane root = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));
-            //BorderPane root = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));
-            //root.getStylesheets().add("/default.css");
-            
+            BorderPane root = FXMLLoader.load(getClass().getResource("/views/Login.fxml"));            
             primaryStage.setScene(new Scene(root, 320, 400));
             primaryStage.setResizable(false);            
             primaryStage.show();

@@ -37,6 +37,7 @@ public class LoginController implements Initializable {
             BorderPane root = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
             Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            
             stage.hide();
             stage.setScene(scene);
             stage.show();
