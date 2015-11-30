@@ -28,34 +28,15 @@ import javafx.stage.Stage;
  * @author Mark
  */
 public class LoginController implements Initializable {
-    
-    private Connection initDatabase() {
-        Connection conn = null;
-        try {
-            //Load the JDBC Driver
-            Class.forName("com.mysql.jdbc.Driver");
-            
-            //Connect to a database
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/fastenyourseatbelts", "fys", "welkom01");
-        } catch (ClassNotFoundException | SQLException ex) {
-            Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        return conn;
-    }
-    
-    @FXML private BorderPane master;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
+    
     @FXML private Label lblError;
     private Boolean loginValidation(String username, String password) {
         Boolean valid = false;
-        try(Connection conn = initDatabase()) {
-            //Create a statement
-            Statement statement = conn.createStatement();
-            
+        try(Connection conn = Database.initDatabase()) {
             //Select the employee with the given username and password
             String selectEmployee = 
                     "SELECT userName,firstName,lastName,password,email " +
@@ -64,6 +45,7 @@ public class LoginController implements Initializable {
             
             //Create prepared statment
             PreparedStatement preparedStatement = conn.prepareStatement(selectEmployee);
+            
             //set values
             preparedStatement.setString(1, username);
             preparedStatement.setString(2, password);
@@ -88,6 +70,7 @@ public class LoginController implements Initializable {
     
     @FXML private TextField txtUsername;
     @FXML private TextField txtPassword;
+    @FXML private BorderPane master;
     
     @FXML 
     protected void Login(ActionEvent event) {
@@ -107,7 +90,7 @@ public class LoginController implements Initializable {
 
             stage.hide();
             stage.setScene(scene);
-            //master.set
+            //master.setLeft(dashboard.getDashboardScreen());
             stage.show();
         }
     }
