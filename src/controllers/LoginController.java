@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -56,11 +57,20 @@ public class LoginController implements Initializable {
             Statement statement = conn.createStatement();
             
             //Select the employee with the given username and password
-            ResultSet employee = statement.executeQuery(
+            String selectEmployee = 
                     "SELECT userName,firstName,lastName,password,email " +
                     "FROM employee " +
-                    "WHERE userName = '"+username+"' AND password = '"+password+ "'");
+                    "WHERE userName = ? AND password = ?";
             
+            //Create prepared statment
+            PreparedStatement preparedStatement = conn.prepareStatement(selectEmployee);
+            //set values
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, password);
+            
+            //execute query and get results
+            ResultSet employee = preparedStatement.executeQuery();
+       
             //if there are no records found.
             if (!employee.next()) { 
                 lblError.setText("Username and/or password is wrong");
