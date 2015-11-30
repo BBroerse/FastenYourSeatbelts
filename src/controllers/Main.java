@@ -113,6 +113,8 @@ public class Main extends Application {
         BorderPane screen = null;
         try {
             screen = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
+            DashboardController dashboard = new DashboardController();
+            screen.setLeft(dashboard.getDashboardScreen());
         } catch (IOException ex) {
             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
         }
