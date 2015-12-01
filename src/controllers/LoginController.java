@@ -70,7 +70,6 @@ public class LoginController implements Initializable {
     
     @FXML private TextField txtUsername;
     @FXML private TextField txtPassword;
-    @FXML private BorderPane master;
     
     @FXML 
     protected void Login(ActionEvent event) {
@@ -81,7 +80,6 @@ public class LoginController implements Initializable {
         if(valid) {
             //Get the main fxml
             Main main = new Main();
-            DashboardController dashboard = new DashboardController();
             BorderPane root = main.getMainScreen();
 
             //Add the fxml to the scene
@@ -90,7 +88,6 @@ public class LoginController implements Initializable {
 
             stage.hide();
             stage.setScene(scene);
-            //master.setLeft(dashboard.getDashboardScreen());
             stage.show();
         }
     }

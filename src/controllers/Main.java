@@ -16,6 +16,7 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -75,6 +76,8 @@ public class Main extends Application {
         int selectedValue = cbCustomer.getSelectionModel().getSelectedIndex();
         switch(selectedValue) {
             case 0:
+                AllCustomerController allCustomers = new AllCustomerController();
+                master.setLeft(allCustomers.getAllCustomerScreen());
                 lblPage.setText("All customers");
                 break;
             case 1:
@@ -115,6 +118,7 @@ public class Main extends Application {
             screen = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
             DashboardController dashboard = new DashboardController();
             screen.setLeft(dashboard.getDashboardScreen());
+            //lblPage.setText("Dashboard");
         } catch (IOException ex) {
             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
         }
